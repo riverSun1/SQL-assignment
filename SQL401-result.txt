@@ -1,0 +1,38 @@
+cd C:\Users\Administrator\Documents\NetBeansProjects\SQL401_1; "JAVA_HOME=C:\\Program Files\\Java\\jdk-16.0.2" cmd /c "\"C:\\Program Files\\NetBeans-12.4\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= -Dexec.args=\"${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.sql401_1.SQL401 -Dexec.executable=\"C:\\Program Files\\Java\\jdk-16.0.2\\bin\\java.exe\" -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans-12.4\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 org.codehaus.mojo:exec-maven-plugin:3.0.0:exec"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+-----------------------< com.mycompany:SQL401_1 >-----------------------
+Building SQL401_1 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.0.0:exec (default-cli) @ SQL401_1 ---
+ 학번: 2019212969 이름: 강해원 날짜: 2021.10.06
+ 질의401: 모든 학생을 찾으세요.
+ sql_401: select * from student
+ 실행 결과: 
+
+        ID NAME                DEPT_NAME            TOT_CRED
+     19991 Brandt              History                     80
+     23121 Chavez              Finance                    110
+     00128 Zhang               Comp. Sci.                 102
+     12345 Shankar             Comp. Sci.                  32
+     44553 Peltier             Physics                     56
+     45678 Levy                Physics                     46
+     54321 Williams            Comp. Sci.                  54
+     55739 Sanchez             Music                       38
+     70557 Snow                Physics                      0
+     76543 Brown               Comp. Sci.                  58
+     76653 Aoi                 Elec. Eng.                  60
+     98765 Bourikas            Elec. Eng.                  98
+     98988 Tanaka              Biology                    120
+     DG444 SonHM               History                     88
+     DG777 Kwanchang           History                     99
+
+
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  2.665 s
+Finished at: 2021-10-30T22:16:52+09:00
+------------------------------------------------------------------------
